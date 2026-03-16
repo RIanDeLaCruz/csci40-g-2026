@@ -30,6 +30,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+CSRF_TRUSTED_ORIGINS = ["https://server-production-9b91.up.railway.app"]
+CSRF_ALLOWED_ORIGINS = ["https://server-production-9b91.up.railway.app"]
+CORS_ORIGINS_WHITELIST = ["https://server-production-9b91.up.railway.app"]
 
 # Application definition
 
